@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Folder Name="/">
+    <File Path="src\source.odin" />
+    <File Path="ols.json" />
+    <File Path="odinfmt.json" />
+    <File Path="tasks.vs.json" />
+    <File Path="launch.vs.json" />
+    <File Path="bootstrap.ps1" />
+  </Folder>
+</Solution>

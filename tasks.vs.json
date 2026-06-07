@@ -1,0 +1,26 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "Odin Build",
+      "appliesTo": "/",
+      "type": "launch",
+      "command": "C:\\odin\\odin.exe",
+      "args": ["build", "src", "-out:bin\\FizzleFramework.exe", "-debug"]
+    },
+    {
+      "taskName": "Odin Run",
+      "appliesTo": "/",
+      "type": "launch",
+      "command": "C:\\odin\\odin.exe",
+      "args": ["run", "src", "-debug"]
+    },
+    {
+      "taskName": "Odin Check",
+      "appliesTo": "/",
+      "type": "launch",
+      "command": "C:\\odin\\odin.exe",
+      "args": ["check", "src"]
+    }
+  ]
+}
